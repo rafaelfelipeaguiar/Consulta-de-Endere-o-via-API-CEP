@@ -1,0 +1,51 @@
+html, body {
+    background-color: #d4c7c7;
+  }
+.container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .cep-form {
+    margin-top: 20px;
+  }
+  
+  .cep-input {
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .cep-button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .cep-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .loading {
+    color: #ff9800;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .result-container {
+    margin-top: 20px;
+    text-align: left;
+    display: inline-block;
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
